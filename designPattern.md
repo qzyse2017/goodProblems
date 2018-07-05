@@ -1,0 +1,2 @@
+# Design Pattern
+It's so important to learn design patterns and master them well.So excited to follow the master, [Erich Gamma on Github](https://github.com/egamma). Seeing his commit logs in timeline is so inspiring, and it motivate me to do something meaningful!!!
