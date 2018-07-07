@@ -25,4 +25,8 @@ he elaborates the rules afterwards. And here are some points I usually took no n
 3. don't commit too many changes at once. Use atomic commits.
 
 and the author recommend [Pro Git](https://git-scm.com/book/en/v2) at the last of the article.
+
+ADD some good REF:  
+[1] [learn from how Linus wrote commits](https://github.com/torvalds/linux/commits/master)
+[2] [some very simple rules for good commits](https://github.com/thoughtbot/dotfiles/blob/master/gitmessage)
   
