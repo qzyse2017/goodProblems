@@ -82,20 +82,25 @@ def genNewPosts():
                         if x!= '':
                             datePiece.append(x)
 
-                    newUpdateTime = (' ').join(datePiece[2:]) + '\r\n'
+                    newUpdateTime = 'last_update: ' + (' ').join(datePiece[1:]) + '\r\n'
 
                 newPosts = ' %s\t' % commitTime.strftime('%Y-%m-%d-%H-%M')  + '[' + msg + '](' + insertLoc + '.md)' + '\r\n'
                 contentList.append(newPosts)
-     
-    with open('newPosts.md','r') as f:
-        data = f.readlines()
-        data[2] = newUpdateTime
-    f.close()
+
+    if newUpdateTime != '': 
+        with open('newPosts.md','r') as f:
+            data = f.readlines()
+            data[2] = newUpdateTime
+        f.close()
+
+        with open('newPosts.md', 'w') as f:
+            f.writelines(data)
+        f.close()
 
     with open('newPosts.md','a') as f:
         for newLine in reversed(contentList):
             f.write(newLine)
     f.close()
-                        
+                       
 if __name__ == "__main__":
     genNewPosts()
