@@ -26,13 +26,9 @@ In short, good documentation should contain the following parts:
 
 P.S. at the article, the author referred  Larry Wall's words and suggested that ```as a person, relating to other people, the three virtues we should aspire to are: diligence, patience, and humility```. These virtues may be the more important things that should be kept in mind when writing documentations. 
 
-
-
-
 ## how to insert a newline in markdown
 1. insert two blank spaces and press the Enter key after that  
 2. pressing the Enter key twice can also make a new line  
-
 
 ## How to write good git commit messages
 I've been confused about how to write git commit messages properly for a long time, and I think this [blog](https://chris.beams.io/posts/git-commit/) can answer the problem well.  
@@ -58,4 +54,15 @@ and the author recommend [Pro Git](https://git-scm.com/book/en/v2) at the last o
 ADD some good REF:  
 [1] [learn from how Linus wrote commits](https://github.com/torvalds/linux/commits/master)
 [2] [some very simple rules for good commits](https://github.com/thoughtbot/dotfiles/blob/master/gitmessage)
-  
+
+## How to understand the basic use of a framework or library quickly?
+###  accordig to your goal -- you just want to use this library/framework
+1. first look at the brief introduction of this library, pay attention to why the author create this library / framework? (Have anyone ever written something similar? What are the differences between this library / framework and the libraries / frameworks alike to it? Or, the author just wrote it out for practising? As a result, everyone found it useful and start to use it? )
+2. see others' comments on the libraries / frameworks you are going to use, and focus on the diferences. Choose the one that fits you in your condition.
+3. Read the documentation. Pay attention to the parts talking about the author's intended use for the library / framework. What are main partitions in funtion? Waht are the main interfaces use convention? Think about the problems you are going to tackle and how to can combine them with the library / framework.
+4. Read the ```Best Practise``` part if the author wrote it.
+5. Take a look at the author's testcases, paying special attention to the parts of the boundary value.
+
+### accordig to your goal -- you want to implement similar requirements / you want to rewrite the library / framework
+1. According to the testcase, take a look at how the interfaces is called in different procedures and find the corresponding file to be used step by step. Focus on the main modules been used and take a look up the details you care about.
+2. Take a look at the issue area or the discussion area to see what people often ridicule,their common questions and the author's answers to the questions.
