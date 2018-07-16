@@ -9,12 +9,10 @@ Share simple and convenient tool chains building in developing and some other to
 - graphviz. Write scripts to generate pictures, a lot of format of output supported. A little trouble in utf-8 encodings on Windows 10, but works fine in Windows SubSystem Linux and Linux system. Also support python extensions.
 - InkScape. Open source software, support multiple format and you can write extensions to make it more powerful.
 
-## compiling tools
-
 ## codegen tools
 
 
-## format
+## online editor
 ### tex
 - recommended site: ```https://www.sharelatex.com/learn/XeLaTeX```
 
