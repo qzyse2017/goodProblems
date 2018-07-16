@@ -54,7 +54,7 @@ def getMsgFromLog(logStr):
     endPoint = logStr.find('`',startPoint + 1)
     insertStart = logStr.find('`',endPoint + 1)
     insertEnd = logStr.find('`',insertStart + 1)
-    return logStr[startPoint + 1 : endPoint],logStr[insertStart : insertEnd]
+    return logStr[startPoint + 1 : endPoint],logStr[insertStart + 1: insertEnd]
     
 def genNewPosts():
     commands = 'git log'
@@ -67,14 +67,15 @@ def genNewPosts():
     contentList = []
 
     newUpdateTime  = ''
+    updateTimeFlag = False
     for line in outStream.splitlines():
         if line.startswith('Date'):
             commitTime = getTimeFromLog(line)
             dateLine = line
-        if line.find('insert') != -1:
+        if line.lower().find('insert') != -1:
             msg,insertLoc = getMsgFromLog(line)  
             if commitTime > lastUpdateTime:
-                if newUpdateTime == '':
+                if updateTimeFlag == False:
                     rawDatePiece = dateLine.split(' ')
                     datePiece = []
                     for x in rawDatePiece:
@@ -82,12 +83,13 @@ def genNewPosts():
                         if x!= '':
                             datePiece.append(x)
 
-                    newUpdateTime = 'last_update: ' + (' ').join(datePiece[1:]) + '\r\n'
+                    newUpdateTime = 'last_update: ' + (' ').join(datePiece[1:]) + '\n'
+                    updateTimeFlag = True
 
                 newPosts = ' %s\t' % commitTime.strftime('%Y-%m-%d-%H-%M')  + '[' + msg + '](' + insertLoc + '.md)' + '\r\n'
                 contentList.append(newPosts)
 
-    if newUpdateTime != '': 
+    if updateTimeFlag != False: 
         with open('newPosts.md','r') as f:
             data = f.readlines()
             data[2] = newUpdateTime
@@ -97,6 +99,7 @@ def genNewPosts():
             f.writelines(data)
         f.close()
 
+   
     with open('newPosts.md','a') as f:
         for newLine in reversed(contentList):
             f.write(newLine)
