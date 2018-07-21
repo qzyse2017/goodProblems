@@ -1,6 +1,6 @@
 # Contents in time order
 
-last_update: Mon Jul 16 22:42:12 2018 +0800
+last_update: Sat Jul 21 21:52:44 2018 +0800
 
  2018-07-10-08-32	[how to write good documentation ](details.md)
 
@@ -10,3 +10,4 @@ last_update: Mon Jul 16 22:42:12 2018 +0800
 
  2018-07-16-22-42	[Summarize my shortcut in mastering the basic use of various languages](details.md)
 
+ 2018-07-21-21-52	[where to get detailed documentation?](typescript.md)
