@@ -10,4 +10,5 @@ last_update: Sat Jul 21 21:52:44 2018 +0800
 
  2018-07-16-22-42	[Summarize my shortcut in mastering the basic use of various languages](details.md)
 
- 2018-07-21-21-52	[where to get detailed documentation?](typescript.md)
+ 2018-07-21-21-52	[where to get detailed documentation for typescript?](typescript.md)
+
