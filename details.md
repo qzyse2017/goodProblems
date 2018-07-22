@@ -24,7 +24,10 @@ In short, good documentation should contain the following parts:
   - error measage:it should be more detailed and help the user easily find the solution.  
 
 
-P.S. at the article, the author referred  Larry Wall's words and suggested that ```as a person, relating to other people, the three virtues we should aspire to are: diligence, patience, and humility```. These virtues may be the more important things that should be kept in mind when writing documentations. 
+P.S. at the end of the article, the author referred  Larry Wall's words and suggested that ```as a person, relating to other people, the three virtues we should aspire to are: diligence, patience, and humility```. These virtues may be the more important things that should be kept in mind when writing documentations.   
+To see a good example of good documentation, I think [documentation of Rust](https://www.rust-lang.org/en-US/documentation.html
+) and [documentation of Go](https://golang.org/doc/
+) will be awesome enough. 
 
 ## how to insert a newline in markdown
 1. insert two blank spaces and press the Enter key after that  
