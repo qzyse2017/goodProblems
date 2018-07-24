@@ -5,6 +5,19 @@ confused about how to continuely contribute to a project which is maintained by 
 [GitHub workflow guide for contributors](https://github.com/kubernetes/community/blob/master/contributors/guide/github-workflow.md)  
 other parts of this guide are also worth reading for those who maintains a large project and for those who want to make their projects better in some conventions. Vscode's contribution guides are also worth reading,e.g. [its coding conventions](https://github.com/Microsoft/vscode/wiki/Coding-Guidelines)
 
+## how to give good branch names?
+got the problem from kubernetes's contributing guide about 'developing on a branch'. And I think [this question]() discussed on stackoverflow gives good answer.  
+For short, the conventions are below(examples omitted here)
+
+> Branch naming conventions
+> 1. Use grouping tokens (words) at the beginning of your branch names.
+> 2. Define and use short lead tokens to differentiate branches in a way that is meaningful to your workflow.
+> 3. Use slashes to separate parts of your branch names.
+> 4. Do not use bare numbers as leading parts.
+> 5. Avoid long descriptive names for long-lived branches.
+
+
+
 ## good conventions for comments on source code?
 List some good rules which I got from Rob Pike's _Practise of programming_ below
 
