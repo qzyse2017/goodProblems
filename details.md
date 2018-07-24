@@ -3,8 +3,25 @@
 ## Good workflow for open-source project on GitHub
 confused about how to continuely contribute to a project which is maintained by many developers and make my fork's commits more easily to manage at the same time, I read about kubernetes's contributing guide and think it makes a good example about showing the developers how to contribute in a good way.  
 [GitHub workflow guide for contributors](https://github.com/kubernetes/community/blob/master/contributors/guide/github-workflow.md)  
-other parts of this guide are also worth reading for those who maintains a large project and for those who want to make their projects better in some conventions.
+other parts of this guide are also worth reading for those who maintains a large project and for those who want to make their projects better in some conventions. Vscode's contribution guides are also worth reading,e.g. [its coding conventions](https://github.com/Microsoft/vscode/wiki/Coding-Guidelines)
 
+## good conventions for comments on source code?
+List some good rules which I got from Rob Pike's _Practise of programming_ below
+
+1. ```Comments shouldn't report self-evident information```
+
+2. ```Comment functions and global data```
+
+3. ```Don't comment bad code, rewrite it. Comment anything unusual or potentially con- fusing, but when the comment outweighs the code, the code probably needs fixing. This example uses a long, muddled comment and a conditionally-compiled debugging print statement to explain a single statement: 
+? ```
+
+4. ```Don't contradict the code. Most comments agree with the code when they are writ- ten, but as bugs are fixed and the program evolves, the comments are often left in their original form, resulting in disagreement with the code. This is the likely expla- nation for the inconsistency in the example that opens this chapter.```
+
+5. ```Clarify, don't confuse. Comments are supposed to help readers over the hard parts, not create more obstacles```
+
+and for the second item, I have read some code which use tools to generate documentation about its key method usages and meanings. This seems to solved the fourth item at the same time and I think it's a quite good practise for writing code.
+
+In other scenarios it may be better to write as fewer comments as possible, since good code should explain itself clear by variable names, directory names, file names, etc.
 
 ## how to write good documentation  
 REF:  
