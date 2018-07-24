@@ -1,5 +1,20 @@
 # Details 
 
+## Is it necessary to ignore ```.gitignore``` file itself?
+Have be curious about this problem for a long time, in my opinion, ```.gitignore``` file may contain some files which I use just for myself and anyone else will not use it, so it should be visible to myself only.
+but at the other hand, if some other developer maintain a repository with me at the same time, then some generated files should be ignored and it should be known to everyone participated in developing. But what if some files are only needed to be ignored ny myself? I found GitHub's help page gives a good solution as below
+
+> If you don't want to create a .gitignore file to share with others, you can create rules that are not committed with the  repository. You can use this technique for locally-generated files that you don't expect other users to generate, such as 
+> files created by your editor.
+> 
+> Use your favorite text editor to open the file called .git/info/exclude within the root of your Git repository. Any rule you add here will not be checked in, and will only ignore files for your local repository.
+> 
+> In Terminal, navigate to the location of your Git repository.
+> Using your favorite text editor, open the file .git/info/exclude.
+
+the above link also hold the view that ```.gitignore``` file is needed to be contained in a repository ~. Problem solved~
+
+
 ## Good workflow for open-source project on GitHub
 confused about how to continuely contribute to a project which is maintained by many developers and make my fork's commits more easily to manage at the same time, I read about kubernetes's contributing guide and think it makes a good example about showing the developers how to contribute in a good way.  
 [GitHub workflow guide for contributors](https://github.com/kubernetes/community/blob/master/contributors/guide/github-workflow.md)  
