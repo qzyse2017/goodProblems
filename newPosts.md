@@ -1,6 +1,6 @@
 # Contents in time order
 
-last_update: Sat Jul 21 21:52:44 2018 +0800
+last_update: Tue Jul 24 20:05:24 2018 +0800
 
  2018-07-10-08-32   [how to write good git commit message](details.md)
 
@@ -14,3 +14,7 @@ last_update: Sat Jul 21 21:52:44 2018 +0800
 
  2018-07-21-21-52	[where to get detailed documentation for typescript?](typescript.md)
 
+ 2018-07-24-10-41	[Good workflow for open-source project on GitHub](detail.md)
+ 2018-07-24-18-35	[good conventions for comments on source code](details.md)
+ 2018-07-24-18-48	[how to give good branch names?](details.md)
+ 2018-07-24-20-05	[Is it necessary to ignore .gitignore file itself?](details.md)
