@@ -1,5 +1,11 @@
 # Details 
 
+## Good workflow for open-source project on GitHub
+confused about how to continuely contribute to a project which is maintained by many developers and make my fork's commits more easily to manage at the same time, I read about kubernetes's contributing guide and think it makes a good example about showing the developers how to contribute in a good way.  
+[GitHub workflow guide for contributors](https://github.com/kubernetes/community/blob/master/contributors/guide/github-workflow.md)  
+other parts of this guide are also worth reading for those who maintains a large project and for those who want to make their projects better in some conventions.
+
+
 ## how to write good documentation  
 REF:  
 - [A beginner's guide to writing documentation](https://github.com/writethedocs/www/blob/master/docs/guide/writing/beginners-guide-to-docs.rst)
