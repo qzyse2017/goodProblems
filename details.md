@@ -9,8 +9,8 @@ but at the other hand, if some other developer maintain a repository with me at 
 > 
 > Use your favorite text editor to open the file called .git/info/exclude within the root of your Git repository. Any rule you add here will not be checked in, and will only ignore files for your local repository.
 > 
-> In Terminal, navigate to the location of your Git repository.
-> Using your favorite text editor, open the file .git/info/exclude.
+> 1. In Terminal, navigate to the location of your Git repository.
+> 2. Using your favorite text editor, open the file .git/info/exclude.
 
 the above link also hold the view that ```.gitignore``` file is needed to be contained in a repository ~. Problem solved~
 
