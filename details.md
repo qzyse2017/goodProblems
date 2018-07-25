@@ -21,7 +21,7 @@ confused about how to continuely contribute to a project which is maintained by 
 other parts of this guide are also worth reading for those who maintains a large project and for those who want to make their projects better in some conventions. Vscode's contribution guides are also worth reading,e.g. [its coding conventions](https://github.com/Microsoft/vscode/wiki/Coding-Guidelines)
 
 ## how to give good branch names?
-got the problem from kubernetes's contributing guide about 'developing on a branch'. And I think [this question]() discussed on stackoverflow gives good answer.  
+got the problem from kubernetes's contributing guide about 'developing on a branch'. And I think [this question](https://stackoverflow.com/questions/273695/git-branch-naming-best-practices) discussed on stackoverflow gives good answer.  
 For short, the conventions are below(examples omitted here)
 
 > Branch naming conventions
