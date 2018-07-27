@@ -1,37 +1,5 @@
 # Details 
 
-## Is it necessary to ignore ```.gitignore``` file itself?
-Have be curious about this problem for a long time, in my opinion, ```.gitignore``` file may contain some files which I use just for myself and anyone else will not use it, so it should be visible to myself only.
-but at the other hand, if some other developer maintain a repository with me at the same time, then some generated files should be ignored and it should be known to everyone participated in developing. But what if some files are only needed to be ignored ny myself? I found GitHub's help page gives a good solution as below
-
-> If you don't want to create a .gitignore file to share with others, you can create rules that are not committed with the  repository. You can use this technique for locally-generated files that you don't expect other users to generate, such as 
-> files created by your editor.
-> 
-> Use your favorite text editor to open the file called .git/info/exclude within the root of your Git repository. Any rule you add here will not be checked in, and will only ignore files for your local repository.
-> 
-> 1. In Terminal, navigate to the location of your Git repository.
-> 2. Using your favorite text editor, open the file .git/info/exclude.
-
-the above link also hold the view that ```.gitignore``` file is needed to be contained in a repository ~. Problem solved~
-
-
-## Good workflow for open-source project on GitHub
-confused about how to continuely contribute to a project which is maintained by many developers and make my fork's commits more easily to manage at the same time, I read about kubernetes's contributing guide and think it makes a good example about showing the developers how to contribute in a good way.  
-[GitHub workflow guide for contributors](https://github.com/kubernetes/community/blob/master/contributors/guide/github-workflow.md)  
-other parts of this guide are also worth reading for those who maintains a large project and for those who want to make their projects better in some conventions. Vscode's contribution guides are also worth reading,e.g. [its coding conventions](https://github.com/Microsoft/vscode/wiki/Coding-Guidelines)
-
-## how to give good branch names?
-got the problem from kubernetes's contributing guide about 'developing on a branch'. And I think [this question](https://stackoverflow.com/questions/273695/git-branch-naming-best-practices) discussed on stackoverflow gives good answer.  
-For short, the conventions are below(examples omitted here)
-
-> Branch naming conventions
-> 1. Use grouping tokens (words) at the beginning of your branch names.
-> 2. Define and use short lead tokens to differentiate branches in a way that is meaningful to your workflow.
-> 3. Use slashes to separate parts of your branch names.
-> 4. Do not use bare numbers as leading parts.
-> 5. Avoid long descriptive names for long-lived branches.
-
-
 
 ## good conventions for comments on source code?
 List some good rules which I got from Rob Pike's _Practise of programming_ below
@@ -84,30 +52,6 @@ To see a good example of good documentation, I think [documentation of Rust](htt
 1. insert two blank spaces and press the Enter key after that  
 2. pressing the Enter key twice can also make a new line  
 
-## How to write good git commit messages
-I've been confused about how to write git commit messages properly for a long time, and I think this [blog](https://chris.beams.io/posts/git-commit/) can answer the problem well.  
-strongly recommened reading the [blog](https://chris.beams.io/posts/git-commit/) yourself, the author refers some good examples of git commit messages in link forms.  
-In this blog, the author explains why good git commit messages matters and lists seven rules of great git commit messages as follows:  
-```
-Keep in mind: This has all been said before.
-1. Separate subject from body with a blank line
-2. Limit the subject line to 50 characters
-3. Capitalize the subject line
-4. Do not end the subject line with a period
-5. Use the imperative mood in the subject line
-6. Wrap the body at 72 characters
-7. Use the body to explain what and why vs. how
-```
-he elaborates the rules afterwards. And here are some points I usually took no notice of in the past.  
-1. use a blank lines to sperate the subject and the body and you can use ```git log --pretty=oneline``` to see your message subject only later.
-2. use git commit messages with bodies only when they are necessary.  
-3. don't commit too many changes at once. Use atomic commits.
-
-and the author recommend [Pro Git](https://git-scm.com/book/en/v2) at the last of the article.
-
-ADD some good REF:  
-[1] [learn from how Linus wrote commits](https://github.com/torvalds/linux/commits/master)  
-[2] [some very simple rules for good commits](https://github.com/thoughtbot/dotfiles/blob/master/gitmessage)
 
 ## How to understand the basic use of a framework or library quickly?
 ###  accordig to your goal -- you just want to use this library/framework
