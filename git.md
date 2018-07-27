@@ -2,7 +2,12 @@
 
 _collect something helps to better user git_
 
-## hwwo to view all git activity for a repo?  
+## how to manage large binary files with git?
+REF [managing-large-binary-files-with-git -- stackoverflow](https://stackoverflow.com/questions/540535/managing-large-binary-files-with-git)  
+I think git-lfs and building binaries as submodule are good and easy solutions.
+
+
+## how to view all git activity for a repo?  
 REF [is-there-a-git-activity-log -- stackoverflow](https://stackoverflow.com/questions/12820167/is-there-a-git-activity-log)  
 use ```git reflog```  
 tried it, but seemed to only show activity for the local parts.
@@ -20,8 +25,8 @@ git clone <url> --branch <branch> --single-branch [<folder>]
 here the ```<url>``` is the url for the origin repo and ```branch``` arg stands for the branch name in remote repo and ```single-branch``` is for your local directory.
 
 ## Is it necessary to ignore ```.gitignore``` file itself?
-Have be curious about this problem for a long time, in my opinion, ```.gitignore``` file may contain some files which I use just for myself and anyone else will not use it, so it should be visible to myself only.
-but at the other hand, if some other developer maintain a repository with me at the same time, then some generated files should be ignored and it should be known to everyone participated in developing. But what if some files are only needed to be ignored ny myself? I found GitHub's help page gives a good solution as below
+Have been curious about this problem for a long time, in my opinion, ```.gitignore``` file may contain some files which I use just for myself and anyone else will not use it, so it should be visible to myself only.
+but at the other hand, if some other developer maintain a repository with me at the same time, then some generated files should be ignored and it should be known to everyone participated in developing. But what if some files are only needed to be ignored by myself? I found [GitHub's help page](https://help.github.com/articles/ignoring-files/#explicit-repository-excludes) gives a good solution as below
 
 > If you don't want to create a .gitignore file to share with others, you can create rules that are not committed with the  repository. You can use this technique for locally-generated files that you don't expect other users to generate, such as 
 > files created by your editor.
