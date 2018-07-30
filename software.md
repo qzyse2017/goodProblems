@@ -13,3 +13,4 @@ See the posts from docker's documentation, introduction about its goal from its 
 
 REF and detailed instructions:  
 [12 factor](https://12factor.net/)
+[examples from GitHub](https://github.com/docker/labs/tree/master/12factor)
