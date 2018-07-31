@@ -1,6 +1,18 @@
 # Details 
 
 
+
+## What does different parts in version number mean e.g. 0.0.1?
+Usually it's `semver`  
+See [https://semver.org/](https://semver.org/) 
+In short it's  
+> Given a version number MAJOR.MINOR.PATCH, increment the:  
+> MAJOR version when you make incompatible API changes,  
+> MINOR version when you add functionality in a backwards-compatible manner, and  
+> PATCH version when you make backwards-compatible bug fixes.  
+> Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+
 ## good conventions for comments on source code?
 List some good rules which I got from Rob Pike's _Practise of programming_ below
 
