@@ -32,7 +32,7 @@ last_update: Mon Jul 30 16:09:30 2018 +0800
 
  2018-07-30-16-09	[Is there a TRY CATCH command in Bash?](linux.md)
 
- 2018-07-31-17-59-58	[ What does different parts in version number mean e.g. 0.0.1?](details.md)
+ 2018-07-31-17-59	[ What does different parts in version number mean e.g. 0.0.1?](details.md)
 
- 2018-07-31-18-01-49	[What is the authoritative list of Docker Run exit codes](virtualization.md)
+ 2018-07-31-18-01	[What is the authoritative list of Docker Run exit codes](virtualization.md)
 
