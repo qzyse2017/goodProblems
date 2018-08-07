@@ -6,7 +6,7 @@ REF:
 [answer from stackoverflow](https://stackoverflow.com/questions/31297616/what-is-the-authoritative-list-of-docker-run-exit-codes)  
 [PR from GitHub](https://github.com/docker/docker/pull/14012)  
 [Exit status from docker's doc](https://docs.docker.com/engine/reference/run/#exit-status)  
-[Exit Codes With Special Meanings](http://tldp.org/LDP/abs/html/exitcodes.html)
+[Exit Codes With Special Meanings](http://tldp.org/LDP/abs/html/exitcodes.html)  
 The following are from docker's documentation
 > When docker run exits with a non-zero code, the exit codes follow the chroot standard, see below:  
 > 
@@ -39,3 +39,8 @@ and the following stackoverflow
 > 137 = (128+9) Container received a SIGKILL
 > 
 > 143 = (128+15) Container received a SIGTERM
+
+
+## Dockerfile vs docker-compose, which is better?
+https://stackoverflow.com/questions/29480099/docker-compose-vs-dockerfile-which-is-better
+https://stackoverflow.com/questions/37966552/what-is-the-difference-between-docker-and-docker-compose
