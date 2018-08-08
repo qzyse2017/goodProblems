@@ -22,17 +22,17 @@ last_update: Thu Aug 9 21:47:24 2018 +0800
 
  2018-07-24-20-05	[Is it necessary to ignore .gitignore file itself?](git.md)
 
- 2018-07-27-14-32	[how to How to clone a single branch in git?](git.md)
+ 2018-07-27-14-32	[How to clone a single branch in git?](git.md)
 
- 2018-07-27-14-44	[how to view all git activity for a repo?](git.md)
+ 2018-07-27-14-44	[How to view all git activity for a repo?](git.md)
 
- 2018-07-27-22-01	[how to manage large binary files with git?](git.md)
+ 2018-07-27-22-01	[How to manage large binary files with git?](git.md)
 
  2018-07-29-14-53	[Some good methods about building SAAS software](software.md)
 
  2018-07-30-16-09	[Is there a TRY CATCH command in Bash?](linux.md)
 
- 2018-07-31-17-59	[ What does different parts in version number mean e.g. 0.0.1?](details.md)
+ 2018-07-31-17-59	[What does different parts in version number mean e.g. 0.0.1?](details.md)
 
  2018-07-31-18-01	[What is the authoritative list of Docker Run exit codes](virtualization.md)
 
