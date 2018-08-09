@@ -1,6 +1,6 @@
 # git
 
-_collect something helps to better user git_
+_collect something helps to better use git_
 
 ## sync a fork on GitHub
 REF:  
