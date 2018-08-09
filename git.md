@@ -2,6 +2,16 @@
 
 _collect something helps to better user git_
 
+## sync a fork on GitHub
+REF:  
+[sync a fork -- GitHub help](https://help.github.com/articles/syncing-a-fork/)  
+In short, it is  
+```shell
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
+
+```
 
 ## use about git hooks?
 REF:  
