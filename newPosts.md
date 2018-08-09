@@ -1,6 +1,6 @@
 # Contents in time order
 
-last_update: Mon Jul 30 16:09:30 2018 +0800
+last_update: Thu Aug 9 21:47:24 2018 +0800
 
  2018-07-10-08-32   [how to write good git commit message](git.md)
 
@@ -35,4 +35,10 @@ last_update: Mon Jul 30 16:09:30 2018 +0800
  2018-07-31-17-59	[ What does different parts in version number mean e.g. 0.0.1?](details.md)
 
  2018-07-31-18-01	[What is the authoritative list of Docker Run exit codes](virtualization.md)
+
+ 2018-08-09-21-47	[use about git hooks?](git.md)
+
+ 2018-08-09-21-55	[sync a fork on GitHub](git.md)
+
+ 2018-08-09-22-39	[SSH Key Permissions Chmod settings?](linux.md)
 
