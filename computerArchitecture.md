@@ -1,2 +1,2 @@
 # Computer Architecture
-With many interesting computer architecture problems and my best respect to John L. Hennessy & David A. Patterson, whose awesome textbook -- Computer Architecture:A Quantitative let me feel the magic and strength of computer architecture.
+With many fascinating computer architecture problems and my best respect to John L. Hennessy & David A. Patterson, whose awesome textbook -- ```Computer Architecture:A Quantitative``` let me feel the magic and strength of computer architecture.  
