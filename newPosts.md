@@ -1,6 +1,6 @@
 # Contents in time order
 
-last_update: Thu Aug 9 21:47:24 2018 +0800
+last_update: Sat Aug 11 16:04:42 2018 +0800
 
  2018-07-10-08-32   [how to write good git commit message](git.md)
 
@@ -42,3 +42,5 @@ last_update: Thu Aug 9 21:47:24 2018 +0800
 
  2018-08-09-22-39	[SSH Key Permissions Chmod settings?](linux.md)
 
+ 2018-08-11-15-50	[Turn off Page Prediction in edge to let it use less memory](tricksForWindows.md)
+ 2018-08-11-16-04	[ Better settings for display to let lights from monitor feels softer](tricksForWindows.md)
