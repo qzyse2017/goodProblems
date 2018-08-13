@@ -13,13 +13,26 @@ REF:
 
 ## sync a fork on GitHub
 REF:  
-[sync a fork -- GitHub help](https://help.github.com/articles/syncing-a-fork/)  
+[sync a fork -- GitHub help](https://help.github.com/articles/syncing-a-fork/) 
+**Not recommended below** 
 In short, it is  
 ```shell
 $ git fetch upstream
 $ git checkout master
 $ git merge upstream/master
+$ 
+```
 
+**Renew:**
+Do not think the method above is a good now, it will insert a redundant commit starts with ```Merge```. **a better method: using ```rebase```.**
+REF:  
+[contributing docs from kubernetes](https://github.com/kubernetes/community/blob/master/contributors/guide/github-workflow.md)  
+in detail, it is  
+```
+$ git fetch upstream
+$ git checkout master
+$ git rebase upstream/master
+$ git push -u origin matser
 ```
 
 ## use about git hooks?
