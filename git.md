@@ -105,7 +105,7 @@ REF [is-there-a-git-activity-log -- stackoverflow](https://stackoverflow.com/que
 use ```git reflog```  
 tried it, but seemed to only show activity for the local parts.
 
-## how to How to clone a single branch in git?
+## How to clone a single branch in git?
 REF [how to How to clone a single branch in git? -- stackoverflow](https://stackoverflow.com/questions/1778088/how-to-clone-a-single-branch-in-git)  
 use  
 ```
