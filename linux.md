@@ -1,6 +1,15 @@
 Linux 
 _problems about Linux_
 
+## What is the difference between 'eval $(<cmds>)' and '<cmds>'
+
+It is `eval` will combine arguments follows it into a command and pass it to interpreter and return the exit code. But using `cmds` will directly run `<cmds>` itself which could sometimes contain some commands which can not be executed directly.
+
+REF
+
+[answer from stackoverflow](https://stackoverflow.com/questions/43001805/whats-the-difference-between-eval-command-and-command)
+[bash manual reference](https://www.gnu.org/software/bash/manual/bash.html)
+
 ## SSH Key Permissions Chmod settings?
 REF:  
 [solution -- stackexchange](https://unix.stackexchange.com/questions/257590/ssh-key-permissions-chmod-settings)  
