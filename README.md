@@ -11,3 +11,7 @@ it is recommended you do the commit every time you insert a new item and specify
 Also, for the title location to be inserted correctly in the ```newPosts.md```, it is recommended you use ```copy-paste``` while writing the content digest in commit message to make sure it is same as the title in the correspoding documentation and the view you see will be directly located to the correspoding title when you click the link. Special characters should be taken care of(I have not tested them all). 
 
 Not all title locations in my commits will work well(most of them will probably work), I do not follow the convention talked above in all my documentation here(e.g. ```tricksAndWindows.md```).
+
+
+## TODO
+-[ ] Remove special characters in content title locator and it should work correctly for locating, do it before next generating for contents
