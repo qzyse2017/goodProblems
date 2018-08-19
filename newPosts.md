@@ -1,6 +1,6 @@
 # Contents in time order
 
-last_update: Sat Aug 11 16:04:42 2018 +0800
+last_update: Fri Aug 17 16:34:37 2018 +0800
 
  2018-07-10-08-32   [how to write good git commit message](git.md#how-to-write-good-git-commit-messages)
 
@@ -35,14 +35,15 @@ last_update: Sat Aug 11 16:04:42 2018 +0800
  2018-07-31-17-59	[What does different parts in version number mean e.g. 0.0.1?](details.md#what-does-different-parts-in-version-number-mean-e.g.-0.0.1?)
 
  2018-07-31-18-01	[What is the authoritative list of Docker Run exit codes](virtualization.md#what-is-the-authoritative-list-of-Docker-Run-exit-codes)
-
  2018-08-09-21-47	[use about git hooks?](git.md#use-about-git-hooks?)
-
- 2018-08-09-21-55	[sync a fork on GitHub](git.md#sync-a-fork-on-gitHub)
-
- 2018-08-09-22-39	[SSH Key Permissions Chmod settings?](linux.md#ssh-key-permissions-chmod-settings?)
 
  2018-08-11-15-50	[Turn off Page Prediction in edge to let it use less memory](tricksForWindows.md#turn-off-page-prediction-in-edge-to-let-it-use-less-memory)
 
- 2018-08-11-16-04	[Better settings for display to let lights from monitor feels softer](tricksForWindows.md#better-settings-for-display-to-let-lights-from-monitor-feels-softer)
+ 2018-08-11-16-04	[ Better settings for display to let lights from monitor feels softer](tricksForWindows.md#better-settings-for-display-to-let-lights-from-monitor-feels-softer)
+
+ 2018-08-12-07-03	[How do I update nodejs](javascript.md#how-do-i-update-nodejs)
+
+ 2018-08-12-11-55	[Use git rebase to keep the commits log clean](git.md#use-git-rebase-to-keep-the-commits-log-clean)
+
+ 2018-08-17-16-34	[What is the difference between ```"eval $(<cmds>)" and "<cmds>"```](linux.md#what-is-the-difference-between-```"eval-$(<cmds>)"-and-"<cmds>"```)
 
