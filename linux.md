@@ -7,7 +7,7 @@ It is `eval` will combine arguments follows it into a command and pass it to int
 
 REF
 
-[answer from stackoverflow](https://stackoverflow.com/questions/43001805/whats-the-difference-between-eval-command-and-command)
+[answer from stackoverflow](https://stackoverflow.com/questions/43001805/whats-the-difference-between-eval-command-and-command)  
 [bash manual reference](https://www.gnu.org/software/bash/manual/bash.html)
 
 ## SSH Key Permissions Chmod settings?

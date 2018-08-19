@@ -7,7 +7,7 @@ Make good use of `rebase` can make the commits log clean
 Use `rebase` to merge to branches can avoid a commit of 'Merge ...' 
 Use `rebase` on a single rebase can merge many commits to a single one and can remove the commits you do not want to include.(use `squash` and `pick`)  
 REF:  
-[help doc from github](https://help.github.com/articles/about-git-rebase/)
+[help doc from github](https://help.github.com/articles/about-git-rebase/)  
 [docs from git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 
