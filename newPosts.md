@@ -1,6 +1,6 @@
 # Contents in time order
 
-last_update: Fri Aug 17 16:34:37 2018 +0800
+last_update: Fri Aug 24 12:59:41 2018 +0800
 
  2018-07-10-08-32   [how to write good git commit message](git.md#how-to-write-good-git-commit-messages)
 
@@ -48,3 +48,5 @@ last_update: Fri Aug 17 16:34:37 2018 +0800
 
  2018-08-17-16-34	[What is the difference between ```"eval $(<cmds>)" and "<cmds>"```](linux.md#what-is-the-difference-between-```"eval-$(<cmds>)"-and-"<cmds>"```)
 
+
+ 2018-08-24-12-59	[why rust?](rust.md#why-rust)

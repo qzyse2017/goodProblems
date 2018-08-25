@@ -49,13 +49,13 @@ def getTimeFromLog(logStr):
     return convertStr2Time(logStr[startPoint + 1:])
 
 def getMsgFromLog(logStr):
-    #e.g. insert `How to write good git commit messages`
+    #e.g. Insert `How to write good git commit messages` `git`
     startPoint = logStr.find('`')
     endPoint = logStr.find('`',startPoint + 1)
     insertStart = logStr.find('`',endPoint + 1)
     insertEnd = logStr.find('`',insertStart + 1)
     return logStr[startPoint + 1 : endPoint],logStr[insertStart + 1: insertEnd]
-    
+
 def genNewPosts():
     commands = 'git log'
     process = subprocess.run([startMode,commands],\
@@ -86,8 +86,7 @@ def genNewPosts():
                     newUpdateTime = 'last_update: ' + (' ').join(datePiece[1:]) + '\n'
                     updateTimeFlag = True
 
-                titleLocParts = msg.strip().lower().split()
-                titleLoc = '#' + '-'.join(titleLocParts)
+                titleLoc = '#' + '-'.join(re.sub('[^A-Za-z0-9\s]+', '',msg.strip().lower()).split())
                 newPosts = ' %s\t' % commitTime.strftime('%Y-%m-%d-%H-%M')  + '[' + msg + '](' + insertLoc + '.md' + titleLoc + ')\r\n'
                 contentList.append(newPosts)
 
