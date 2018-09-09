@@ -14,4 +14,5 @@ Not all title locations in my commits will work well(most of them will probably 
 
 
 ## TODO
--[ ] Remove special characters in content title locator and it should work correctly for locating, do it before next generating for contents
+- [ ] new plan for git integration: planning to  write a small haskell program to extract title from ```git diff``` and start it with git commit hooks, should also need a git hooks which generate the contents while pushing commits to github.
+- 

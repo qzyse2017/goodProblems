@@ -2,6 +2,20 @@
 
 _collect something helps to better use git_
 
+## Applying the changes from branch b to a, without merging or adding commits
+suppose you are on branchB and you want merge branchA into this branch, use
+```
+git merge --no-commit --squash branchA
+```
+
+
+but ```--squash``` here should be just carefllly used for it would make you lose history from your branchA.
+REF
+
+https://stackoverflow.com/questions/20045946/applying-the-changes-from-branch-b-to-a-without-merging-or-adding-commits
+
+https://stackoverflow.com/a/13348709/10213822
+
 ## Use git rebase to keep the commits log clean
 Make good use of `rebase` can make the commits log clean  
 Use `rebase` to merge to branches can avoid a commit of 'Merge ...' 
