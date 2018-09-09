@@ -1,6 +1,13 @@
 # Details 
 
+## Some fundamental skills worth learning while try a new language
 
+- Common paradigms(design pattern) and its implementatation in this language
+- Common algorithms implementation or use of libraries in this language
+- Common safe(secure) problems existed in this language
+- Project structure/coding style to keep the code easier to cooperate and continuously develop on
+
+To Be Continued(welcome for adding some more!~ Excited to hear some other ideas from you!!!~)
 
 ## What does different parts in version number mean e.g. 0.0.1?
 Usually it's `semver`  
@@ -105,7 +112,7 @@ Think about the differences between the language and some one you have learned w
 5. Use editors/IDE and tools recommended by most users or the documentation.  
 6. With debugging, no need to learn various debugging tools from my perspective of view, just use ```print``` function and those integrated well with IDE. Doing some experiments to verify your assumption may be faster than watching many variables and guessing about the reasons in solving the problems.  
 7. Some more mysterious behaviours of your program may be solved by just thinking about how the program is running in very detailed level and you may look to some popular communities for help.
-8. Go to read specification or similar standard documentation when encountering with something you can not understand clearly.
+8. Go to read **specification** or similar standard documentation when encountering with something you can not understand clearly. Some changelogs and documentations of a specific impletation(compilers and other build tools) may also help. e.g.[golang's doc for 1.9 version](https://github.com/golang/go/blob/master/doc/go1.9.html) contains a lot of details which changed just in version 1.9 
 
 **With all the above talked about, actually I want to say, Go is so awesome a language!!!! Cause all the above I've been talking about is what golang's official documentation is trying to teach its users~~~** And [Rob Pike](https://github.com/robpike) is very active in [Go's issue area on GitHub](https://github.com/golang/go/issues). So excited to hear the great master talking about the great language ~ More motivation for learning ~ [Rob Pike's personal website](http://herpolhode.com/rob/) also holds many of his posts which are worth reading.
 
