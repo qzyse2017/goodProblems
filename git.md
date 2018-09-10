@@ -3,18 +3,33 @@
 _collect something helps to better use git_
 
 ## Applying the changes from branch b to a, without merging or adding commits
+
+if you need to reserve commits messages,
+
+```git merge branchA```
+
+will just be good enough if both of your working tree is clean and I tried it myself there seems to be no redundant commits messages start with ```Merge ...```(which will appear on GitHub if you merge another contributor's pull request to your master branch).
+
+and if you just need to ***apply changes*** not commits.
+
 suppose you are on branchB and you want merge branchA into this branch, use
 ```
 git merge --no-commit --squash branchA
 ```
 
-
 but ```--squash``` here should be just carefllly used for it would make you lose history from your branchA.
+
+```cherry-pick``` should also do the trick. But it seems no way to reserve all the commits message in the other branch, to reserve commit messages, just need to pick every commits, or it will only apply changes but with no commit messages.
+
 REF
 
 https://stackoverflow.com/questions/20045946/applying-the-changes-from-branch-b-to-a-without-merging-or-adding-commits
 
 https://stackoverflow.com/a/13348709/10213822
+
+https://git-scm.com/docs/git-cherry-pick
+
+
 
 ## Use git rebase to keep the commits log clean
 Make good use of `rebase` can make the commits log clean  
