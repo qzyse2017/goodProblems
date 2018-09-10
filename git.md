@@ -2,7 +2,7 @@
 
 _collect something helps to better use git_
 
-## Applying the changes from branch b to a, without merging or adding commits
+## Applying the changes from branch a to b, without merging or adding commits
 
 if you need to reserve commits messages,
 

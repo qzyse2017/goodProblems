@@ -4,19 +4,19 @@ last_update: Fri Aug 24 12:59:41 2018 +0800
 
  2018-07-10-08-32   [how to write good git commit message](git.md#how-to-write-good-git-commit-messages)
 
- 2018-07-10-08-32	[how to write good documentation](details.md#how-to-write-good-documentation)
+ 2018-07-10-08-32	[how to write good documentation](misc.md#how-to-write-good-documentation)
 
- 2018-07-13-14-44	[Is it necessary to wrap your code after the left brace?](details.md#is-it-necessary-to-wrap-your-code-after-the-left-brace)
+ 2018-07-13-14-44	[Is it necessary to wrap your code after the left brace?](misc.md#is-it-necessary-to-wrap-your-code-after-the-left-brace)
 
- 2018-07-12-08-20	[How to understand the basic use of a framework or library quickly](details.md#how-to-understand-the-basic-use-of-a-framework-or-library-quickly)
+ 2018-07-12-08-20	[How to understand the basic use of a framework or library quickly](misc.md#how-to-understand-the-basic-use-of-a-framework-or-library-quickly)
 
- 2018-07-16-22-42	[Summarize my shortcut in mastering the basic use of various languages](details.md#summarize-my-shortcut-in-mastering-the-basic-use-of-various-languages)
+ 2018-07-16-22-42	[Summarize my shortcut in mastering the basic use of various languages](misc.md#summarize-my-shortcut-in-mastering-the-basic-use-of-various-languages)
 
  2018-07-21-21-52	[where to get detailed documentation for typescript](typescript.md#where-to-get-detailed-documentation-for-typescript)
 
  2018-07-24-10-41	[Good workflow for open-source project on GitHub](git.md#good-workflow-for-open-source-project-on-gitHub)
 
- 2018-07-24-18-35	[good conventions for comments on source code](details.md#good-conventions-for-comments-on-source-code)
+ 2018-07-24-18-35	[good conventions for comments on source code](misc.md#good-conventions-for-comments-on-source-code)
 
  2018-07-24-18-48	[how to give good branch names?](git.md#how-to-give-good-branch-names)
 
@@ -32,7 +32,7 @@ last_update: Fri Aug 24 12:59:41 2018 +0800
 
  2018-07-30-16-09	[Is there a TRY CATCH command in Bash?](linux.md#is-there-a-try-catch-command-in-bash)
 
- 2018-07-31-17-59	[What does different parts in version number mean e.g. 0.0.1?](details.md#what-does-different-parts-in-version-number-mean-e.g.-0.0.1)
+ 2018-07-31-17-59	[What does different parts in version number mean e.g. 0.0.1?](misc.md#what-does-different-parts-in-version-number-mean-e.g.-0.0.1)
 
  2018-07-31-18-01	[What is the authoritative list of Docker Run exit codes](virtualization.md#what-is-the-authoritative-list-of-Docker-Run-exit-codes)
 
@@ -49,4 +49,5 @@ last_update: Fri Aug 24 12:59:41 2018 +0800
  2018-08-17-16-34	[What is the difference between ```"eval $(<cmds>)" and "<cmds>"```](linux.md#what-is-the-difference-between-```"eval-$(<cmds>)"-and-"<cmds>"```)
 
 
- 2018-08-24-12-59	[why rust?](rust.md#why-rust)
+ 2018-08-24-12-59	[why rust?](rust.md#why-rust)
+
