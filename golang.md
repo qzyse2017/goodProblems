@@ -7,6 +7,9 @@ _with my beautiful golang_
 - tools which integrated in [vscode-go](https://github.com/Microsoft/vscode-go) plugin.
 - package management: [govendor](https://github.com/kardianos/govendor)
 
+## Difference between slice and array
+SEE https://blog.golang.org/go-slices-usage-and-internals, do not going to repeat its contents here, the blog can be rather detailed.
+
 ## Two dimensional array representation and its memeory use in golang
 
 There are usually two ways to express multidimensional arrays in golang, one is to use **array**, the other to use **slice of slice**.
