@@ -39,4 +39,35 @@ Share simple and convenient tool chains building in developing and some other to
   - with print function built in Chrome you can simply transfer your `.md` file to `.pdf` file
   - by pressing `F5` or clicking `refresh` button of the browser, you get new preview of your `.md` file after changing it
 
+## Multiline/multi-cursor/multi-selection editing in various editors/IDE
+Just list some commands I usually use here, you may get a full list in ref.
+
+vscode:
+
+you may also use ```File > Preferences > Keyboard Shortcuts. (Code > Preferences > Keyboard Shortcuts on macOS)``` to verify the right key shortcuts in your editor.
+
+> On Windows, you hold ```Ctrl+Alt``` while pressing the up ↑ or down ↓ arrow keys to add cursors.(I just have my screen image reversed on my PC `:)`. On Mac and Linux, the equivalents are ```Opt+ Cmd+↑/↓ ```and ```Shift+Alt+↑/↓```, respectively.
+
+> hold ```Alt and left click``` to place cursors arbitrarily.
+
+Sublime:
+```
+On Windows, in sublime text 2 , it is ctrl + shift + right mouse click, it may vary if you are use sublime text 3, see the ref afterwards for more detail.
+```
+
+REF
+
+https://stackoverflow.com/questions/30037808/multiline-editing-in-vscode
+
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
+
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+
+https://code.visualstudio.com/docs/getstarted/keybindings
+
+http://www.sublimetext.com/docs/2/column_selection.html
+
+
+
+
 
