@@ -1,6 +1,6 @@
 # Contents in time order
 
-last_update: Fri Aug 24 12:59:41 2018 +0800
+last_update: Sat Sep 15 01:07:32 2018 +0800
 
  2018-07-10-08-32   [how to write good git commit message](git.md#how-to-write-good-git-commit-messages)
 
@@ -49,5 +49,15 @@ last_update: Fri Aug 24 12:59:41 2018 +0800
  2018-08-17-16-34	[What is the difference between ```"eval $(<cmds>)" and "<cmds>"```](linux.md#what-is-the-difference-between-```"eval-$(<cmds>)"-and-"<cmds>"```)
 
 
- 2018-08-24-12-59	[why rust?](rust.md#why-rust)
+ 2018-08-24-12-59	[why rust?](rust.md#why-rust)   
 
+
+ 2018-09-09-11-19	[Some fundamental skills worth learning while try a new language](details.md#some-fundamental-skills-worth-learning-while-try-a-new-language)
+ 2018-09-10-11-12	[Applying the changes from branch a to b, without merging or adding commits](git.md.md#applying-the-changes-from-branch-a-to-b-without-merging-or-adding-commits)
+ 2018-09-11-20-08	[Two dimensional array representation and its memeory use in golang](golang.md#two-dimensional-array-representation-and-its-memeory-use-in-golang)
+ 2018-09-12-12-03	[Loop through an array in JavaScript](javascript.md#loop-through-an-array-in-javascript)
+ 2018-09-12-16-16	[What is double colon in Python when subscripting sequences?](python.md#what-is-double-colon-in-python-when-subscripting-sequences)
+ 2018-09-13-11-35	[Difference between slice and array](golang.md#difference-between-slice-and-array)
+ 2018-09-14-13-24	[Multiline-multi-cursor-multi-selection editing in various editors-IDE](toolChain.md#multiline-multi-cursor-multi-selection-editing-in-various-editors-ide)
+ 2018-09-14-23-52	[Some best practise for writing CSS](css.md#some-best-practise-for-writing-css)
+ 2018-09-15-01-07	[consensus-algorithms-blockchain](blockChain.md#consensus-algorithms-blockchain)

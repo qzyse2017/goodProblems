@@ -86,7 +86,8 @@ def genNewPosts():
                     newUpdateTime = 'last_update: ' + (' ').join(datePiece[1:]) + '\n'
                     updateTimeFlag = True
 
-                titleLoc = '#' + '-'.join(re.sub('[^A-Za-z0-9\s]+', '',msg.strip().lower()).split())
+                msg = msg.replace('/','-')
+                titleLoc = '#' + '-'.join(re.sub('[^A-Za-z0-9\/\s\-]+', '',msg.strip().lower()).split())
                 newPosts = ' %s\t' % commitTime.strftime('%Y-%m-%d-%H-%M')  + '[' + msg + '](' + insertLoc + '.md' + titleLoc + ')\r\n'
                 contentList.append(newPosts)
 
