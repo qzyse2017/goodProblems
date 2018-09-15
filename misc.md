@@ -105,7 +105,14 @@ I summarize the following steps to quickly master the basic use of a programming
 1. focus on the problem you are going to tackle and observe what language is used by the most people in the field, it may also suit you well. Or you are familiar with a language which though not usually used in this field but you are familiar with it enough and believe it can help you get the work done, you may also choose it. Be careful about the condition where a lot of people who are not familiar with the language need to maintain your project after you leave.
 
 2. learn about the language's basic data types and structs and compare their use to which you had learned before, for example, use data types and structs in C to help your learn is a good way. C provides us many interface enabling us to mainpulate the computer resources directly. Also the basic use of C is easy to manipulate, and you can learn it very fast.(being proficient in C and implementing complex functionalities well are hard though).   
-You can also think about how to implement these data types or structs yourself in C and figure out possible costs of them. Think about some scenarios where you can use these data and how you can optimize your program's performance by choosing proper data types to reduce data copy and make use of the continuity of storage.  
+You can also think about how to implement these data types or structs yourself in C and figure out possible costs of them. Think about some scenarios where you can use these data and how you can optimize your program's performance by choosing proper data types to reduce data copy and make use of the continuity of storage. 
+
+Update: Note: You may not compare what you have learned in another language with what you are learning if they are two languages with different paradigm, REF in the last of Peter Norvig's article about `Teach yourself programmming in ten years` pointed out that a good programmer may need to master a dozen of languages.
+
+>Include one language that emphasizes class abstractions (like Java or C++), one that emphasizes functional abstraction (like Lisp or ML or Haskell), one that supports syntactic abstraction (like Lisp), one that supports declarative specifications (like Prolog or C++ templates), and one that emphasizes parallelism (like Clojure or Go).
+
+IMHO, you should just compare a language to those with similar programming paradigms, like Java and Cpp, Haskell and Ocaml.
+
 Think about the differences between the language and some one you have learned well. Think about where their better scenario is respectively and whether there are some risks you may ignore in common use.   
 3. find a project implemented in the language which makes good use of the language. With Good programming conventions used, the project should be better worth reading. Think about how you will implement the requirements and make comparisons to the author's implementations. Find the underlying reasons of the differences and thier tradeoffs respectively.  
 4. Read about the ```best practise``` or ```effective xxx``` in the language's documentation or its community. And find some examples in practise.  
@@ -115,4 +122,8 @@ Think about the differences between the language and some one you have learned w
 8. Go to read **specification** or similar standard documentation when encountering with something you can not understand clearly. Some changelogs and documentations of a specific impletation(compilers and other build tools) may also help. e.g.[golang's doc for 1.9 version](https://github.com/golang/go/blob/master/doc/go1.9.html) contains a lot of details which changed just in version 1.9 
 
 **With all the above talked about, actually I want to say, Go is so awesome a language!!!! Cause all the above I've been talking about is what golang's official documentation is trying to teach its users~~~** And [Rob Pike](https://github.com/robpike) is very active in [Go's issue area on GitHub](https://github.com/golang/go/issues). So excited to hear the great master talking about the great language ~ More motivation for learning ~ [Rob Pike's personal website](http://herpolhode.com/rob/) also holds many of his posts which are worth reading.
+
+REF
+
+http://www.norvig.com/21-days.html
 
