@@ -1,6 +1,6 @@
 # goodProblems
 
-collecting intereting prolems I overcome every day.  
+collecting intereting prolems I came across every day.  
 the content of every file is indicated in its name, and at the start of each file, there is a simple introduction.
 
 ## SEE posts according to TIME
