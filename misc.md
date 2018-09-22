@@ -23,16 +23,16 @@ In short it's
 ## good conventions for comments on source code?
 List some good rules which I got from Rob Pike's _Practise of programming_ below
 
-1. ```Comments shouldn't report self-evident information```
+> 1. Comments shouldn't report self-evident information
 
-2. ```Comment functions and global data```
+> 2. Comment functions and global data
 
-3. ```Don't comment bad code, rewrite it. Comment anything unusual or potentially con- fusing, but when the comment outweighs the code, the code probably needs fixing. This example uses a long, muddled comment and a conditionally-compiled debugging print statement to explain a single statement: 
-? ```
+> 3. Don't comment bad code, rewrite it. Comment anything unusual or potentially confusing, but when the comment outweighs the code, the code probably needs fixing. This example uses a long, muddled comment and a conditionally-compiled debugging print statement to explain a single statement: 
+? 
 
-4. ```Don't contradict the code. Most comments agree with the code when they are writ- ten, but as bugs are fixed and the program evolves, the comments are often left in their original form, resulting in disagreement with the code. This is the likely expla- nation for the inconsistency in the example that opens this chapter.```
+> 4. Don't contradict the code. Most comments agree with the code when they are writ- ten, but as bugs are fixed and the program evolves, the comments are often left in their original form, resulting in disagreement with the code. This is the likely expla- nation for the inconsistency in the example that opens this chapter.
 
-5. ```Clarify, don't confuse. Comments are supposed to help readers over the hard parts, not create more obstacles```
+> 5. Clarify, don't confuse. Comments are supposed to help readers over the hard parts, not create more obstacles
 
 and for the second item, I have read some code which use tools to generate documentation about its key method usages and meanings. This seems to solved the fourth item at the same time and I think it's a quite good practise for writing code.
 
