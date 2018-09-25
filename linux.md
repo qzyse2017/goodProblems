@@ -1,6 +1,16 @@
 Linux 
 _problems about Linux_
 
+## what is the difference between ctrl-z and ctrl-c in the terminal
+
+>Control+C (control character intr) sends SIGINT which will interrupt the application. Usually causing it to abort, but this is up to the application to decide.
+
+>Control+Z (control character susp) sends SIGTSTP to a foreground application, effectively putting it in the background, suspended
+
+REF
+
+https://askubuntu.com/questions/510811/what-is-the-difference-between-ctrl-z-and-ctrl-c-in-the-terminal
+
 ## What is the difference between ```'eval $(<cmds>)' and '<cmds>'```
 
 It is `eval` will combine arguments follows it into a command and pass it to interpreter and return the exit code. But using `cmds` will directly run `<cmds>` itself which could sometimes contain some commands which can not be executed directly.
