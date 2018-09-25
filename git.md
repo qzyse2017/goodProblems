@@ -2,6 +2,34 @@
 
 _collect something helps to better use git_
 
+## Where not to use git rebase?
+
+All started from that I happened to find using ```git rebase``` can fix commits, you can use `squash` to omit some commit message and `edit` to edit that commit message, so I rebased a lot my previous repositories.
+
+However, after I push these rebased commits to GitHub, I saw a lot a lot of redundant diffs, say, there is not any changes in a line, but there is a line added and a lined deleted showed.
+
+Do not know about the diff algorithm behind, just going to learn some rules about where not use git rebase here.
+
+>So, before you run git rebase, always ask yourself, “Is anyone else looking at this branch?” If the answer is yes, take your hands off the keyboard and start thinking about a non-destructive way to make your changes (e.g., the git revert command). Otherwise, you’re safe to re-write history as much as you like.
+
+Last link in the REF gives an example to talk about the mess condition when using rebasing on a shared branch. 
+
+There seems to be a lot of debates on rebase and merge, and you can see a lot of discussion about "how to handle such a condition" in various websites.🙄 
+
+When developing with others on a branch, it is really better to avoid using rebase. IMHO, maybe use some online code management platform and use pull request, and merge is a good choice. But it seems to take some more time in reviewing code.
+
+Links in REF are very worth reading!~ Do not repeat them here.
+
+REF
+
+https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing
+
+https://git-scm.com/docs/git-rebase#_notes
+
+https://medium.freecodecamp.org/git-rebase-and-the-golden-rule-explained-70715eccc372
+
+
+
 ## Applying the changes from branch a to b, without merging or adding commits
 
 if you need to reserve commits messages,
