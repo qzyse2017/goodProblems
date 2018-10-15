@@ -33,3 +33,35 @@ REF
 https://stackoverflow.com/a/39561477/7122122
 
 https://golang.org/ref/spec#ArrayLength
+
+## What is a good best practice with Go workspaces?
+
+Recommned the answer from [Matt](https://stackoverflow.com/a/20725538/7122122):
+>I used to use multiple GOPATHs -- dozens, in fact. Switching between projects and maintaining the dependencies was a lot harder, because pulling in a useful update in one workspace required that I do it in the others, and sometimes I'd forget, and scratch my head, wondering why that dependency works in one project but not another. Fiasco.
+
+>I now have just one GOPATH and I actually put all my dev projects - Go or not - within it. With one central workspace, I can still keep each project in its own git repository (src/<whatever>) and use git branching to manage dependencies when necessary (in practice, very seldom).
+
+>My recommendation: use just one workspace, or maybe two (like if you need to keep, for example, work and personal code more separate, though the recommended package path naming convention should do that for you).
+
+And the same convention is recommended in [golang.org](https://golang.org/doc/code.html#GOPATH). 
+
+>The GOPATH environment variable specifies the location of your workspace. It defaults to a directory named go inside your home directory, so $HOME/go on Unix, $home/go on Plan 9, and %USERPROFILE%\go (usually C:\Users\YourName\go) on Windows. 
+
+>If you would like to work in a different location, you will need to set GOPATH to the path to that directory. (Another common setup is to set GOPATH=$HOME.) Note that GOPATH must not be the same path as your Go installation. 
+
+>The command go env GOPATH prints the effective current GOPATH; it prints the default location if the environment variable is unset. 
+
+>For convenience, add the workspace's bin subdirectory to your PATH: 
+
+``$ export PATH=$PATH:$(go env GOPATH)/bin``
+
+>The scripts in the rest of this document use $GOPATH instead of $(go env GOPATH) for brevity. To make the scripts run as written if you have not set GOPATH, you can substitute $HOME/go in those commands or else run: 
+``$ export GOPATH=$(go env GOPATH)``
+
+>To learn more about the GOPATH environment variable, see 'go help gopath'. To use a custom workspace location, set the GOPATH environment variable.  
+
+REF
+
+https://stackoverflow.com/questions/20722502/whats-a-good-best-practice-with-go-workspaces
+
+https://golang.org/doc/code.html#GOPATH
