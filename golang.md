@@ -7,6 +7,44 @@ _with my beautiful golang_
 - tools which integrated in [vscode-go](https://github.com/Microsoft/vscode-go) plugin.
 - package management: [govendor](https://github.com/kardianos/govendor)
 
+## how to check if a file exists in go
+Well, it all started from that I found there are two functions in package os which seems to have similar functionality of checking error reported so I search the two functions, and got this [answer](https://stackoverflow.com/a/49892959/7122122)
+
+>So basically if `os.Stat` if this function doesn't give any error that means the file is existing if it does you need to check what kind of error it is, here comes the use of these two function `os.IsNotExist` and `os.IsExist`.
+This can be understood as the Stat of the file throwing error because it doesn't exists or is it throwing error because it exist and there is some problem with it.
+
+>The parameter that these functions take is of type error, although you might be able to pass nil to it but it wouldn't make sense.
+
+>This also points to the fact that `IsExist` is not same as `!IsNotExist`, they are way two different things.
+So now if you want to know if a given file exist in go, I would prefer the best way is:
+```go
+if _, err := os.Stat(path/to/file); !os.IsNotExist(err){
+   //TODO
+} 
+```
+
+description and example from golang [docs](https://golang.org/pkg/os/#IsExist)
+
+>func IsExist
+
+>func IsExist(err error) bool
+>IsExist returns a boolean indicating whether the error is known to report that a file or directory already exists. 
+>It is satisfied by ErrExist as well as some syscall errors. 
+
+>func IsNotExist 
+
+>func IsNotExist(err error) bool
+>IsNotExist returns a boolean indicating whether the error is known to report that a file or directory does not exist. It is satisfied by ErrNotExist as well as some syscall errors. 
+
+So the difference is that you **use some other functions which will return an error to you the error could be two type, it may mean that some file or directory has existed and the creation of them is failed and you need to do some handling, to verify this error, you use os.IsExist; and in another condition, it may mean that you want to open a file or directory which does not eixst and you need os.IsNotExist to verify the error is true or false.**
+
+
+REF 
+
+https://golang.org/pkg/os/#IsExist
+
+https://stackoverflow.com/questions/12518876/how-to-check-if-a-file-exists-in-go/22467409#22467409
+
 ## Difference between slice and array
 SEE https://blog.golang.org/go-slices-usage-and-internals, do not going to repeat its contents here, the blog can be rather detailed.
 
