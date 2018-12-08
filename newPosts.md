@@ -1,6 +1,6 @@
 # Contents in time order
 
-last_update: Mon Oct 15 15:54:02 2018 +0800
+last_update: Sat Dec 8 21:28:13 2018 +0800
 
  2018-07-10-08-32   [how to write good git commit message](git.md#how-to-write-good-git-commit-messages)
 
@@ -70,8 +70,15 @@ last_update: Mon Oct 15 15:54:02 2018 +0800
 
  2018-09-15-01-07	[consensus-algorithms-blockchain](blockChain.md#consensus-algorithms-blockchain)
 
- 2018-09-25-20-23	[what is the difference between ctrl-z and ctrl-c in the terminal](linux.md#what-is-the-difference-between-ctrl-z-and-ctrl-c-in-the-terminal)
- 2018-09-26-01-05	[Where not to use git rebase?](git.md#where-not-to-use-git-rebase)
- 2018-09-26-14-20	[Dynamic programming versus divide-and-conquer](algorithm.md#dynamic-programming-versus-divide-and-conquer)
- 2018-10-10-10-14	[Arrays of Length Zero?](c.md#arrays-of-length-zero)
- 2018-10-15-15-54	[What is a good best practice with Go workspaces?](golang.md#what-is-a-good-best-practice-with-go-workspaces)
+ 2018-09-25-20-23	[what is the difference between ctrl-z and ctrl-c in the terminal](linux.md#what-is-the-difference-between-ctrl-z-and-ctrl-c-in-the-terminal)
+
+ 2018-09-26-01-05	[Where not to use git rebase?](git.md#where-not-to-use-git-rebase)
+
+ 2018-09-26-14-20	[Dynamic programming versus divide-and-conquer](algorithm.md#dynamic-programming-versus-divide-and-conquer)
+
+ 2018-10-10-10-14	[Arrays of Length Zero?](c.md#arrays-of-length-zero)
+
+ 2018-10-15-15-54	[What is a good best practice with Go workspaces?](golang.md#what-is-a-good-best-practice-with-go-workspaces)
+
+ 2018-10-17-11-13	[how to check if a file exists in go](golang.md#how-to-check-if-a-file-exists-in-go)
+ 2018-12-08-21-28	[When to use abstract class and when interface?](java.md#when-to-use-abstract-class-and-when-interface)
