@@ -1,7 +1,20 @@
 # Details 
 
-## Some fundamental skills worth learning while try a new language
+## 9 general rules for debugging
+from [website: debuggingrules](http://debuggingrules.com/)
 
+The 9 Debugging rules are, with the briefest of paraphrased explanations are:
+- Understand the system – you can’t fix something unless you know how it is supposed to work.
+- Make it fail - you should reproduce the failures before repairing it.
+- Quit Thinking and Look - keep looking and do not think only
+- Divide and Conquer
+- Change One Thing at a Time
+- Keep an Audit Trail – Keep detailed notes on how you reproduced a bug, it makes it easier on everyone to find it and fix it.
+- Check the Plug – Start at the beginning, don’t just start debugging where you think the bug might be.
+- Get a Fresh View – talking the problems with others and you may get a fresh view from them
+- If You Didn’t Fix It, It Ain’t Fixed – If it happened to work properly again, you should not think that the problem is solved. Try to apply the operation sequences which can cause the failure again and make sure it is your single change that fix the bug.
+
+## Some fundamental skills worth learning while try a new language
 - Common paradigms(design pattern) and its implementatation in this language
 - Common algorithms implementation or use of libraries in this language
 - Common safe(secure) problems existed in this language
