@@ -1,6 +1,6 @@
 # Contents in time order
 
-last_update: Sat Dec 8 21:28:13 2018 +0800
+last_update: Sun Jan 13 01:42:43 2019 +0800
 
  2018-07-10-08-32   [how to write good git commit message](git.md#how-to-write-good-git-commit-messages)
 
@@ -80,5 +80,9 @@ last_update: Sat Dec 8 21:28:13 2018 +0800
 
  2018-10-15-15-54	[What is a good best practice with Go workspaces?](golang.md#what-is-a-good-best-practice-with-go-workspaces)
 
- 2018-10-17-11-13	[how to check if a file exists in go](golang.md#how-to-check-if-a-file-exists-in-go)
- 2018-12-08-21-28	[When to use abstract class and when interface?](java.md#when-to-use-abstract-class-and-when-interface)
+ 2018-10-17-11-13	[how to check if a file exists in go](golang.md#how-to-check-if-a-file-exists-in-go)
+
+ 2018-12-08-21-28	[When to use abstract class and when interface?](java.md#when-to-use-abstract-class-and-when-interface)
+
+ 2019-01-13-00-05	[9 general rules for debugging](misc.md#9-general-rules-for-debugging)
+ 2019-01-13-01-42	[How do I install a .tar.gz (or .tar.bz2) file?](linux.md#how-do-i-install-a-targz-or-tarbz2-file)
