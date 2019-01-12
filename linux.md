@@ -1,6 +1,30 @@
 Linux 
 _problems about Linux_
 
+## How do I install a .tar.gz (or .tar.bz2) file?
+
+steps:
+
+- The first thing you need to do is extract the files from inside the tar archive to a folder.
+
+- open your terminal and navigate to that directory 
+
+- Make sure the directory include some files like`INSTALL`, `INSTALL.txt` or `README.md`. These files should include the instructions to help install the file.
+
+Usually, the three "classical" steps are:
+
+```shell
+./configure
+make
+sudo make install
+```
+
+>You may also need to install some dependencies if, for example, running configure prompted you with an error listing which dependencies you are missing. You can also use checkinstall instead of make install. See here https://help.ubuntu.com/community/CheckInstall
+
+REF
+
+[answer from stackoverflow](https://askubuntu.com/questions/25961/how-do-i-install-a-tar-gz-or-tar-bz2-file)
+
 ## what is the difference between ctrl-z and ctrl-c in the terminal
 
 >Control+C (control character intr) sends SIGINT which will interrupt the application. Usually causing it to abort, but this is up to the application to decide.
